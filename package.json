@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "A terminal maze-solving game.",
   "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
   "author": "Codecademy",
   "license": "ISC",
   "dependencies": {
     "prompt-sync": "^4.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
